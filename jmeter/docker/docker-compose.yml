@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  jmeter:
+    image: somkiat/jmeter
+    deploy:
+      replicas: 2
+      endpoint_mode: dnsrr
+
+networks:
+  default:
+    driver: overlay
+    attachable: true

@@ -1,0 +1,8 @@
+jmeter/docker/testing/
+DockerGrafanaInfluxKit/
+jmeter/apache-jmeter-5.2.1/            
+jmeter/jmeter-plugins-manager-1.4.jar
+slide/
+workshop/
+.DS_Store
+*.jmx
